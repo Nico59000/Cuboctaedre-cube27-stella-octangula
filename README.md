@@ -22,3 +22,16 @@ La version VTK est presque prête et requière :
 
 pip install numpy vtk
 
+Pour privilégier encore davantage la vitesse :
+
+python cube27_cubocta_stella_render_vtk.py \
+    --quality low \
+    --msaa 0 \
+    --target-fps 120
+
+Pour une machine disposant d'un GPU confortable :
+
+python cube27_cubocta_stella_render_vtk.py \
+    --quality high \
+    --msaa 4 \
+    --target-fps 60
