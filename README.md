@@ -16,3 +16,9 @@ Et avec une rotation complète de caméra pendant l’alternance :
 python cube27_cubocta_stella_render.py \
   --save cube27_cubocta_stella_rotating.mp4 \
   --frames 240 --fps 30 --rotate-camera
+
+
+La version VTK est presque prête et requière : 
+
+pip install numpy vtk
+
