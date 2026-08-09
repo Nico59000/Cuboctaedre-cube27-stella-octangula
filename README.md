@@ -18,7 +18,7 @@ python cube27_cubocta_stella_render.py \
   --frames 240 --fps 30 --rotate-camera
 
 
-La version VTK est presque prête et requière : 
+La version VTK plus musclée en besoins graphiques requière : 
 
 pip install numpy vtk
 
