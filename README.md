@@ -35,3 +35,6 @@ python cube27_cubocta_stella_render_vtk.py \
     --quality high \
     --msaa 4 \
     --target-fps 60
+
+
+cube27_cubocta_stella_render_vtk_morph_bidirectional_R2.py est la version la plus récente prenant en compte les corrections droite et gauche, correction désactivables avec L et M si voulu . 
